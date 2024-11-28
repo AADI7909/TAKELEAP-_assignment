@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 app.get('/', (request, response) => {
-  response.send({
+  response.json({
     name: 'aditya',
     age: '28',
     location: 'visakhapatnam',
